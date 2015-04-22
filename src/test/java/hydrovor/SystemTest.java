@@ -50,6 +50,6 @@ public class SystemTest {
         final int result = sink.getWater();
 
         //        Then
-        Assert.assertEquals(0, result);
+        Assert.assertEquals(1, result);
     }
 }
